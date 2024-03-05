@@ -98,5 +98,3 @@ Contributions are welcome! Feel free to open issues or pull requests.
 
 This project is licensed under the [MIT License](LICENSE).
 ```
-
-Replace `"https://github.com/your-username/full-stack-form-project.git"` in the clone command with the actual URL of your GitHub repository. Adjust the content as needed based on your project's specifics.
