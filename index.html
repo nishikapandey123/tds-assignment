@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Full Stack Form</title>
+</head>
+<body>
+    <form id="myForm">
+        <label for="clientName">Client Name:</label>
+        <input type="text" id="clientName" name="clientName" pattern="[A-Za-z ]+" title="Enter only alphabetic characters" required>
+
+        <label for="guardianType">Guardian Type:</label>
+        <input type="text" id="guardianType" name="guardianType" required>
+
+        <label for="guardianName">Guardian Name:</label>
+        <input type="text" id="guardianName" name="guardianName" pattern="[A-Za-z ]+" title="Enter only alphabetic characters" required>
+
+        <label for="dob">DOB:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label for="mobileNo">Mobile No.:</label>
+        <input type="tel" id="mobileNo" name="mobileNo" pattern="[0-9]{10}" title="Enter a valid 10-digit mobile number" required>
+
+        <label for="additionalMobileNo">Additional Mobile No.:</label>
+        <input type="tel" id="additionalMobileNo" name="additionalMobileNo" pattern="[0-9]{10}" title="Enter a valid 10-digit mobile number" required>
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" required>
+
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state" pattern="[A-Za-z ]+" title="Enter only alphabetic characters" required>
+
+        <label for="district">District:</label>
+        <input type="text" id="district" name="district" pattern="[A-Za-z ]+" title="Enter only alphabetic characters" required>
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" pattern="[A-Za-z ]+" title="Enter only alphabetic characters" required>
+
+        <label for="nextFollowUpDate">Next Follow-up Date:</label>
+        <input type="date" id="nextFollowUpDate" name="nextFollowUpDate" required>
+
+        <button type="button" onclick="saveData()">Submit</button>
+        <button type="button" onclick="redirectToReport()">View Report</button>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
